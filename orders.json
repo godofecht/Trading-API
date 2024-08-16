@@ -1,0 +1,14 @@
+[
+    {"timestamp": "2020-01-01T10:00:00Z", "type": "buy",  "clientId": "C-1", "productId": "P-1", "quantity": 1000, "price": 47.90},
+    {"timestamp": "2020-01-01T10:00:00Z", "type": "buy",  "clientId": "C-2", "productId": "P-3", "quantity": 2000, "price": 7.99},
+    {"timestamp": "2020-01-01T10:00:00Z", "type": "buy",  "clientId": "C-1", "productId": "P-2", "quantity": 500, "price": 36.18},
+    {"timestamp": "2020-01-01T11:00:00Z", "type": "sell", "clientId": "C-1", "productId": "P-1", "quantity": 50, "price": 49.46},
+    {"timestamp": "2020-02-01T10:00:00Z", "type": "sell", "clientId": "C-1", "productId": "P-1", "quantity": 100, "price": 51.06},
+    {"timestamp": "2020-02-28T10:00:00Z", "type": "sell", "clientId": "C-2", "productId": "P-3", "quantity": 100, "price": 8.31},
+    {"timestamp": "2020-06-15T10:00:00Z", "type": "sell", "clientId": "C-1", "productId": "P-2", "quantity": 250, "price": 43.83},
+    {"timestamp": "2020-12-01T10:00:00Z", "type": "buy",  "clientId": "C-3", "productId": "P-1", "quantity": 5000, "price": 47.90},
+    {"timestamp": "2021-01-01T10:00:00Z", "type": "sell", "clientId": "C-2", "productId": "P-3", "quantity": 1900, "price": 10.34},
+    {"timestamp": "2021-07-01T10:00:00Z", "type": "sell", "clientId": "C-3", "productId": "P-1", "quantity": 1, "price": 57.23},
+    {"timestamp": "2022-01-01T10:00:00Z", "type": "sell", "clientId": "C-1", "productId": "P-2", "quantity": 249, "price": 80.49},
+    {"timestamp": "2022-12-01T10:00:00Z", "type": "sell", "clientId": "C-3", "productId": "P-1", "quantity": 4999, "price": 83.54}
+]

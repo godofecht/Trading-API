@@ -1,0 +1,5 @@
+[
+    {"clientId": "C-1", "fee_rate": 0.1},
+    {"clientId": "C-2", "fee_rate": 0.1},
+    {"clientId": "C-3", "fee_rate": 0.1}
+]
