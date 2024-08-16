@@ -1,3 +1,5 @@
+You looking for a guy in finance?
+
 # Trading-API
 
 This project implements a simple trading API built using Flask and SQLAlchemy. The API allows clients to interact with products, place buy/sell orders, and track their portfolio and product balances over time. The API also supports transaction logging, fee calculations, and retrieving various metrics.
