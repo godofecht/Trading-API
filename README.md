@@ -127,7 +127,7 @@ GET /transactions/product/P-1
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/trading-api.git
+   git clone https://github.com/godofecht/trading-api.git
    cd trading-api
    ```
 
