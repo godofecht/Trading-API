@@ -189,6 +189,8 @@ Trading-API/
 
 If you wish to contribute to this project, feel free to submit a pull request. Ensure that any changes are accompanied by corresponding test cases and that the full test suite passes.
 
+Major thanks to Prerak Joshi for setting up the config for CircleCI!
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
