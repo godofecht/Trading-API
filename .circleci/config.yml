@@ -1,0 +1,47 @@
+version: 2.1
+
+jobs:
+  # Job to set up the environment and run tests
+  test:
+    docker:
+      - image: circleci/python:3.8  # Specify the Python version
+    steps:
+      - checkout  # Check out the code
+      - run:
+          name: Set up the environment
+          command: |
+            python -m venv venv  # Create a virtual environment
+            . venv/bin/activate  # Activate the virtual environment
+            pip install -r requirements.txt  # Install dependencies
+      - run:
+          name: Run tests
+          command: |
+            . venv/bin/activate  # Activate the virtual environment
+            pytest test_app.py  # Run tests using pytest
+
+  # Job to build and deploy the application (Optional)
+  deploy:
+    docker:
+      - image: circleci/python:3.8  # Specify the Python version
+    steps:
+      - checkout  # Check out the code
+      - run:
+          name: Set up the environment
+          command: |
+            python -m venv venv  # Create a virtual environment
+            . venv/bin/activate  # Activate the virtual environment
+            pip install -r requirements.txt  # Install dependencies
+      - run:
+          name: Deploy application
+          command: |
+            . venv/bin/activate  # Activate the virtual environment
+            # Add your deployment commands here (e.g., upload to a server or deploy via a cloud service)
+
+workflows:
+  version: 2
+  test_and_deploy:
+    jobs:
+      - test
+      - deploy:
+          requires:
+            - test  # Deploy only if tests pass
